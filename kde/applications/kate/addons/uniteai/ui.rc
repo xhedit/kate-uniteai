@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gui SYSTEM "kpartgui.dtd">
+<gui name="uniteai" library="uniteai" version="22" translationDomain="uniteai">
+  <MenuBar>
+    <Menu name="UniteAI Menubar">
+      <text>AI</text>
+      <Action name="uniteai_semantic_search"/>
+      <Action name="uniteai_region_gpt"/>
+      <Action name="uniteai_region_chatgpt"/>
+      <Action name="uniteai_region_llm"/>
+      <Separator/>
+      <Action name="uniteai_vtt"/>
+      <Separator/>
+      <Action name="uniteai_stop_all"/>
+      <Separator/>
+    </Menu>
+  </MenuBar>
+</gui>
+<!-- kate: space-indent on; indent-width 4; replace-tabs on; -->
